@@ -11,4 +11,5 @@ def chunk_documents(documents, chunk_size=1000, chunk_overlap=200):
     for document in documents:
         document_chunks = text_splitter.split_text(document.page_content)
         chunks.extend(document_chunks)
+
     return chunks
