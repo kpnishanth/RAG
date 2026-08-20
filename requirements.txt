@@ -1,0 +1,4 @@
+langchain
+load_dotenv
+langchain_community
+pypdf
